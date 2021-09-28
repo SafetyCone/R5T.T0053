@@ -1,0 +1,3 @@
+R5T.T0053.Construction - Construction project for IdentifierTypeCode and TypeCodedIdentifierOperator extension method bases..
+
+GOALS:
