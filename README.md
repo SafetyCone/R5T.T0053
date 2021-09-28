@@ -1,0 +1,2 @@
+# R5T.T0053
+IdentifierTypeCode and TypeCodedIdentifierOperator extension method bases.
