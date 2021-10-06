@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.6.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.T0053", "R5T.T0053\R5T.T0053.csproj", "{244F1A03-0680-46D3-9476-F293BDAA8706}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.T0053", "R5T.T0053\R5T.T0053.csproj", "{244F1A03-0680-46D3-9476-F293BDAA8706}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{5FDECC97-D156-46D9-8638-23A375A1A2B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Magyar", "..\..\R5T.Magyar\source\R5T.Magyar\R5T.Magyar.csproj", "{702EE583-86CE-49A2-8FEC-CBE20EABF2DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Magyar", "..\..\R5T.Magyar\source\R5T.Magyar\R5T.Magyar.csproj", "{702EE583-86CE-49A2-8FEC-CBE20EABF2DD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.T0039.T002", "..\..\R5T.T0039\source\R5T.T0039.T002\R5T.T0039.T002.csproj", "{AE406F21-0AE9-441C-AA9E-7B438B8B762D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,9 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{244F1A03-0680-46D3-9476-F293BDAA8706}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -46,8 +45,27 @@ Global
 		{702EE583-86CE-49A2-8FEC-CBE20EABF2DD}.Release|x64.Build.0 = Release|Any CPU
 		{702EE583-86CE-49A2-8FEC-CBE20EABF2DD}.Release|x86.ActiveCfg = Release|Any CPU
 		{702EE583-86CE-49A2-8FEC-CBE20EABF2DD}.Release|x86.Build.0 = Release|Any CPU
+		{AE406F21-0AE9-441C-AA9E-7B438B8B762D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE406F21-0AE9-441C-AA9E-7B438B8B762D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE406F21-0AE9-441C-AA9E-7B438B8B762D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{AE406F21-0AE9-441C-AA9E-7B438B8B762D}.Debug|x64.Build.0 = Debug|Any CPU
+		{AE406F21-0AE9-441C-AA9E-7B438B8B762D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AE406F21-0AE9-441C-AA9E-7B438B8B762D}.Debug|x86.Build.0 = Debug|Any CPU
+		{AE406F21-0AE9-441C-AA9E-7B438B8B762D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE406F21-0AE9-441C-AA9E-7B438B8B762D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE406F21-0AE9-441C-AA9E-7B438B8B762D}.Release|x64.ActiveCfg = Release|Any CPU
+		{AE406F21-0AE9-441C-AA9E-7B438B8B762D}.Release|x64.Build.0 = Release|Any CPU
+		{AE406F21-0AE9-441C-AA9E-7B438B8B762D}.Release|x86.ActiveCfg = Release|Any CPU
+		{AE406F21-0AE9-441C-AA9E-7B438B8B762D}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{702EE583-86CE-49A2-8FEC-CBE20EABF2DD} = {5FDECC97-D156-46D9-8638-23A375A1A2B3}
+		{AE406F21-0AE9-441C-AA9E-7B438B8B762D} = {5FDECC97-D156-46D9-8638-23A375A1A2B3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {26E15E87-2E80-4CC5-9E2A-0CF6D35B3C64}
 	EndGlobalSection
 EndGlobal
